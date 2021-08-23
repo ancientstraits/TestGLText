@@ -1,0 +1,66 @@
+[
+ {
+  "directory": "/home/runner/TestGLText",
+  "arguments": [
+   "cc",
+   "-c",
+   "-o",
+   "obj/main.o",
+   "src/main.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Llib",
+   "-Wall"
+  ],
+  "file": "src/main.c"
+ },
+ {
+  "directory": "/home/runner/TestGLText",
+  "arguments": [
+   "cc",
+   "-c",
+   "-o",
+   "obj/shader.o",
+   "src/shader.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Llib",
+   "-Wall"
+  ],
+  "file": "src/shader.c"
+ },
+ {
+  "directory": "/home/runner/TestGLText",
+  "arguments": [
+   "cc",
+   "-c",
+   "-o",
+   "obj/util.o",
+   "src/util.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Llib",
+   "-Wall"
+  ],
+  "file": "src/util.c"
+ },
+ {
+  "directory": "/home/runner/TestGLText",
+  "arguments": [
+   "cc",
+   "-c",
+   "-o",
+   "obj/vert.o",
+   "src/vert.c",
+   "-g",
+   "-ggdb",
+   "-Iinclude",
+   "-Llib",
+   "-Wall"
+  ],
+  "file": "src/vert.c"
+ }
+]
